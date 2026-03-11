@@ -19,7 +19,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://demo.local',
+        target: 'https://karmabackend-6c6i.onrender.com',
         changeOrigin: true,
         secure: false,
       },
